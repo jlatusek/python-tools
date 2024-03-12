@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "obsidian-to-anki"
+version = "0.1.0"
+description = ""
+authors = ["Jakub Latusek <jk.latusek@gmail.com>"]
+readme = "README.md"
+packages = [{include = "obsidian_to_anki"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
